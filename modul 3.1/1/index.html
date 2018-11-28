@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Form</title>
+    <style>
+      div {
+        margin: 10px;
+        padding: 5px;
+      }
+
+      #name,
+      #msg,
+      #mail {
+        float: right;
+        width: 300px;
+      }
+      button {
+        position: absolute;
+        left: 50%;
+        bottom: 65%;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 22px;
+        background-image: linear-gradient(
+          to bottom right,
+          lightblue,
+          rgb(24, 107, 155)
+        );
+        border: 2px solid lightblue;
+        border-radius: 20px;
+        padding: 5px;
+        margin: 5px;
+        color: white;
+      }
+      .mess {
+        text-align: right;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="http://www.google.com" method="GET">
+      <div>
+        <label class="mess" for="name">Name:</label>
+        <input name="name" type="text" id="name" placeholder="Your Full name" />
+      </div>
+      <div>
+        <label class="mess" for="mail">e-Mail Address:</label>
+        <input
+          name="email"
+          id="mail"
+          type="email"
+          placeholder="Your eMail address"
+        />
+      </div>
+      <div>
+        <label class="mess" for="msg">Message:</label>
+        <textarea
+          rows="10"
+          cols="50"
+          name="message"
+          id="msg"
+          placeholder="Your Message"
+        >
+        </textarea>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+thead,
+tr,
+td {
+  padding: 5px;
+  border: 1px solid white;
+}
+
+th {
+  background-color: #91c4d5;
+}
+
+thead tr:nth-child(1) th {
+  background-color: #66a8be;
+}
+
+td {
+  text-align: center;
+  background-color: #d6eaf1;
+}
+
+tfoot td {
+  background-color: #d8e1c6;
+}
+
+tfoot th:nth-child(1) {
+  background-color: #b1cc7f;
+}
