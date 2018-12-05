@@ -1,0 +1,88 @@
+html {
+    background-image: url(https://www.vandersandengroup.com/sites/default/files/styles/brick_gallery_2014/public/vds-paneel-zv-123_rega.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 800px;
+}
+
+th,
+td {
+    border: 3px solid #417097;
+}
+
+td {
+    font-size: 14px;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    padding: 10px;
+    font-size: 14px;
+    text-align: start;
+    color: #417097;
+    border-right: 3px solid #ef7f5d;
+}
+
+th:last-child {
+
+    font-size: 26px;
+    text-align: center;
+}
+
+input {
+    background-color: #ece8e4;
+    border: 0;
+}
+
+.container {
+    width: 810px;
+}
+
+.table {
+    padding-top: 20px;
+    padding-left: 5px;
+    background-color: #ece8e4;
+}
+
+.contact {
+    border-right: 3px solid #417097;
+}
+
+.message {
+    padding-top: 0;
+    padding-bottom: 0;
+    /* padding-bottom: 100px; */
+}
+
+.space {
+    height: 20px;
+    border: 0 none;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+.noborder {
+    border: none;
+}
+
+button {
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    color: #417097;
+}
+
+textarea {
+    background-color: #ece8e4;
+    border: none;
+}

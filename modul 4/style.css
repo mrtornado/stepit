@@ -1,69 +1,72 @@
 .container {
-    background-image: url(https://ak1.picdn.net/shutterstock/videos/18077671/thumb/1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-
+  background-image: url(https://ak1.picdn.net/shutterstock/videos/18077671/thumb/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
 }
 
 .inner {
-    padding: 20px;
-    border-radius: 10px;
-    background: rgba(0, 0, 128, .4);
-
+  border: 0.1px solid white;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(128, 129, 167, 0.7);
 }
 
 input {
-    width: 300px;
+  width: 98%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 0 none;
 }
 
 .name {
-    font-size: 16px;
-    margin: 10px;
-    padding: 0 10px 10px 10px;
-    border-radius: 10px;
-    background-color: #f66700;
-
+  width: 80%;
+  font-size: 16px;
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #f66700;
 }
 
 .email {
-    font-size: 16px;
-    margin: 10px;
-    padding: 0 10px 10px 10px;
-    border-radius: 10px;
-    background-color: #00b7e6;
+  width: 80%;
+  font-size: 16px;
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #00b7e6;
 }
 
 .age {
-    font-size: 16px;
-    margin: 10px;
-    padding: 0 10px 10px 10px;
-    border-radius: 10px;
-    background-color: #81cc00;
+  width: 80%;
+  font-size: 16px;
+  margin: 10px;
+  padding: 0 10px 10px 10px;
+  border-radius: 10px;
+  background-color: #81cc00;
 }
 
 .innerdiv {
-    margin-right: 100px;
-    color: white;
-    text-align: right;
+  margin-right: 100px;
+  color: white;
+  text-align: right;
 }
 
-
 button {
-    margin: 10px 0;
-    font-size: 22px;
-    border-radius: 10px;
-    padding: 5px;
-    width: 170px;
+  margin: 10px 0;
+  font-size: 22px;
+  border-radius: 10px;
+  padding: 5px;
+  width: 170px;
 }
 
 .formbody {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 p {
-    color: white;
+  color: white;
 }
