@@ -1,0 +1,51 @@
+body {
+    box-sizing: border-box;
+}
+
+.formcontainer {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+.phone {
+    width: 100%;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: row
+}
+
+.firstname {
+    width: 50%;
+}
+
+.lastname {
+    width: 50%;
+}
+
+.countrystate {
+
+    display: flex;
+    flex-direction: row
+}
+
+.address {
+    width: 100%;
+}
+
+.country {
+    width: 50%;
+}
+
+.state {
+    width: 50%;
+}
