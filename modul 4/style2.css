@@ -92,4 +92,5 @@ button {
 textarea {
     background-color: #ece8e4;
     border: none;
+    resize: none;
 }
