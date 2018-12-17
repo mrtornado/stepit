@@ -37,6 +37,14 @@ table th:nth-child(1n) {
     border-bottom: 2px solid black;
 }
 
+table th:first-child {
+    border-bottom: 1px dotted black;
+}
+
+table thead th:nth-child(1) {
+    border-bottom: 2px solid black;
+}
+
 table th:nth-child(2) {
     border-left: 2px solid black;
 }
