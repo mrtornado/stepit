@@ -1,6 +1,12 @@
 .container {
   display: flex;
   justify-content: center;
+
+
+}
+
+.background {
+  width: 600px;
   background-image: url(https://ak1.picdn.net/shutterstock/videos/18077671/thumb/1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
